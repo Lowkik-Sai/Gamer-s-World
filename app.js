@@ -8,8 +8,8 @@ const commando = require(`discord.js-commando`);
 
 const config = require('./config.json');
 const bot = new commando.Client({
-    commandPrefix:'mass!',
-    owner: config.id
+    commandPrefix:'@',
+    owner: 654669770549100575
 });
 
 const cmdsArray = [
@@ -28,7 +28,7 @@ bot.on("ready", () => {
 
 
 bot.on("error", (error) => {
-    bot.login(config.token);
+    bot.login(NzI2Nzk1OTcwOTc2Njc4MDAx.Xviggg.Cjjp_TZWS2ccQO-IHt3A_mf4BYo);
 });
 
 process.on('unhandledRejection', error => {
