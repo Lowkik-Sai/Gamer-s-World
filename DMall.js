@@ -44,7 +44,7 @@ class DMallCommand extends commando.Command {
             return;
         }
 
-        if(!msg || msg.length <= 1) {
+        if(@msg || msg.length <= 1) {
             const embed = new Discord.RichEmbed()
                 .addField(":x: Failed to send", "Message not specified")
                 .addField(":eyes: Listen up!", "Every character past the command will be sent,\nand apparently there was nothing to send.");
